@@ -4,7 +4,7 @@ spring:
       - dev
 ---
 server:
- port: 8080
+ port: 8081
 
 mybatis:
  # 所有的mapper映射文件
@@ -20,7 +20,7 @@ spring:
  profiles: dev
  application:
    # 注册进Eureka的微服务名
-   name: microcloud-provider-config-product
+   name: product
  datasource:
    # 配置当前要使用的数据源的操作类型
    type: com.alibaba.druid.pool.DruidDataSource
@@ -75,7 +75,7 @@ info:
  
 ---
 server:
- port: 8090
+ port: 8091
 
 mybatis:
  # 所有的mapper映射文件
