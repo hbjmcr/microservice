@@ -28,7 +28,7 @@ eureka:
 
 # security登录认证配置
 spring:
-  profiles: test
+  profiles: dev
   security:
     user:
       name: admin
